@@ -120,6 +120,9 @@ img {
 .cart-item:not(:last-child){
     margin-bottom: 20px;
 }
+.product-none{
+	color: red;
+}
 .product-bio{
     display: flex;
 }

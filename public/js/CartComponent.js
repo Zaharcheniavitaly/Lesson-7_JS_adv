@@ -66,6 +66,7 @@ Vue.component('cart', {
 	template: `<div>
 <button class="btn-cart" type="button" @click="showCart = !showCart">Корзина</button>
         <div class="cart-block" v-show="showCart">
+		  <p class="product-none" v-if="!cartItems.length">В корзине нет товаров</p>
             <cart-item v-for="item of cartItems" :key="item.id_product" :img="item.img" :cart-item="item" @remove="remove">
             </cart-item>
         </div>
@@ -81,8 +82,8 @@ Vue.component('cart-item', {
                         <img class="product-cart__img" :src="cartItem.img" alt="Some img">
                         <div class="product-desc">
                             <div class="product-title">{{ cartItem.product_name }}</div>
-                            <div class="product-quantity">Quantity: {{ cartItem.quantity }}</div>
-                            <div class="product-single-price">$ {{ cartItem.price }} each</div>
+                            <div class="product-quantity">Количество: {{ cartItem.quantity }}</div>
+                            <div class="product-single-price">$ {{ cartItem.price }} doll</div>
                         </div>
                     </div>
                     <div class="right-block">

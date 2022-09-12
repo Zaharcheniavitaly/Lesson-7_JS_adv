@@ -1,16 +1,24 @@
 {
-  "name": "d-z-7_pic",
-  "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "express": "^4.17.1"
-  },
-  "devDependencies": {},
-  "description": ""
+	"name": "lesson-7_js_adv",
+	"version": "1.0.0",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [],
+	"author": "vitaly",
+	"license": "ISC",
+	"dependencies": {
+		"express": "^4.17.1"
+	},
+	"devDependencies": {},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Zaharcheniavitaly/Lesson-7_JS_adv.git"
+	},
+	"bugs": {
+		"url": "https://github.com/Zaharcheniavitaly/Lesson-7_JS_adv/issues"
+	},
+	"homepage": "https://github.com/Zaharcheniavitaly/Lesson-7_JS_adv#readme",
+	"description": ""
 }
