@@ -113,6 +113,20 @@
             "product_name": "Keyboard",
             "price": 1600,
             "img": "https://i.ibb.co/vHL3Ydv/klaviatura.jpg"
+        },
+        {
+            "quantity": 1,
+            "id_product": 123,
+            "product_name": "Ноутбук",
+            "price": 45600,
+            "img": "https://i.ibb.co/KGhr6FQ/notebook.jpg"
+        },
+        {
+            "quantity": 1,
+            "id_product": 456,
+            "product_name": "Мышка",
+            "price": 1000,
+            "img": "https://i.ibb.co/jh6d9Ds/mouse.jpg"
         }
     ]
 }
